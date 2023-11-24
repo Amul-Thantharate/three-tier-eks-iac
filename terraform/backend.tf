@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "sandip-demo-tfstate-bucket"
+    bucket = "jenkins-cicd-project"
     key    = "eks/terraform.tfstate"
-    region = "us-west-2"
+    region = "ap-southeast-1"
   }
 }
 

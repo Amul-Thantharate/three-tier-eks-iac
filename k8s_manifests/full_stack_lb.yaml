@@ -13,7 +13,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: app.sandipdas.in
+    - host: mydreamcloud.online
       http:
         paths:
           - path: /api

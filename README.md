@@ -19,7 +19,9 @@ https://aws.amazon.com/cli/
 
 
 #update the Kubernetes context
+```
 aws eks update-kubeconfig --name my-eks-cluster --region us-west-2
+```
 
 # verify access:
 ```
@@ -94,13 +96,6 @@ docker build -t workshop-backend:v1 .
 docker tag workshop-backend:v1 public.ecr.aws/w8u5e4v2/workshop-backend:v1
 docker push public.ecr.aws/w8u5e4v2/workshop-backend:v1
 ```
-
-**Update Kubeconfig**
-Syntax: aws eks update-kubeconfig --region region-code --name your-cluster-name
-```
-aws eks update-kubeconfig --region us-west-2 --name my-eks-cluster
-```
-
 
 
 **Create Namespace**
